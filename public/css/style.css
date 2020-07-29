@@ -1,0 +1,11 @@
+.container-fluid{
+    max-width: 1000px;
+}
+
+textarea{
+    resize: none;
+    border: #5bc0de 1px solid;
+}
+
+textarea:selected{
+    border: #5bc0de 2px solid;
