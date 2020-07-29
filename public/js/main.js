@@ -31,5 +31,5 @@ function toCapt(){
 
 function toSent(){
   var txt = texto.value;
-  texto.value = sentenceCase(txt);
+  texto.value = sentenceCase(txt.toLowerCase());
 }
